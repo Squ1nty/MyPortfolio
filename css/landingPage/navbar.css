@@ -1,0 +1,39 @@
+body{
+  font-family: Roboto, Arial;
+  margin: 0;
+}
+
+.dropdownMenu{
+  position: fixed;
+  top: 0px;
+  width: 100%;
+
+  height: 75px;
+
+  background-color: rgb(178, 235, 178);
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.manualMenuBtnContainer{
+  display: inline-block;
+  cursor: pointer;
+  margin: 0 25px 0 25px;
+  padding: 10px;
+  border-radius: 10px;
+}
+.bar1, .bar2, .bar3{
+  width: 35px;
+  height: 5px;
+  background-color: white;
+  border-radius: 5px;
+}
+.bar2, .bar3{
+  margin-top: 6px;
+}
+
+.manualMenuBtnContainer:hover, .manualMenuBtnContainer:focus{
+  background-color: rgb(168, 219, 168);
+}
